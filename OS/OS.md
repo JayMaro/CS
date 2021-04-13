@@ -111,3 +111,17 @@
 - ready state: CPU에서 실행 가능 상태(실행 대기 상태)
 - block state: 특정 이벤트 발생 대기 상태
 
+#### 선전형과 비선점형 스케쥴러
+
+- 선점형 스케쥴러(Preemptive Scheduling)
+
+  : 하나의 프로세스가 다른 프로세스 대신에 프로세서(CPU)를 차지할 수 있음
+
+  ex)FIFO, SJF, Priority-based
+
+- 비선점형 스케쥴러(Non-preemptive Scheduling)
+
+  : 하나의 프로세스가 끝나지 않으면 다른 프로세스는 CPU 사용 불가
+
+  ex) RoundRobin
+
